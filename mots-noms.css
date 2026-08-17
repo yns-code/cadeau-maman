@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(90deg, #D55A87, #e3286d);
+    color: #4F88C1;
+    font-family: 'Dancing Script';
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    border: 3px #4F88C1 solid;
+    font-size: 5em;
+    padding: 50px;
+    position: relative;
+    top: 130px;
+}
+
+img {
+    width: 3%;
+    background-color: white;
+    border: 2px #4F88C1 solid;
+    position: relative;
+    top: 10px;
+    padding: 5px;
+}
+
+img:hover {
+    opacity: 80%;
+}
+
+.message-long {
+    font-size: 4em;
+}
+
+.important {
+    color: #D55A87;
+}
+
+.message-tres-long {
+    font-size: 2.5em;
+}

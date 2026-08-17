@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(90deg, #D55A87, #e3286d);
+  color: #4F88C1;
+  font-size: 1.5em;
+  font-family: 'Edu VIC WA NT Hand';
+}
+
+h1 {
+    background-color: white;
+    border: 3px #4F88C1 solid;
+    text-align: center;
+}
+
+img {
+    width: 3%;
+    background-color: white;
+    border: 2px #4F88C1 solid;
+    position: relative;
+    top: 9px;
+    right: 35px;
+    padding: 5px;
+}
+
+img:hover {
+    opacity: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: #4F88C1;
+    font-size: 40px;
+    margin: 35px;
+    font-family: 'Dancing Script';
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.noms {
+    background-color: white;
+    border: 3px#4F88C1 solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: auto;
+    margin-top: 150px;
+}
