@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(90deg, #D55A87, #e3286d);
+  color: #4F88C1;
+  font-size: 1.5em;
+  font-family: 'Edu VIC WA NT Hand';
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  background-color: white;
+  border: 3px #4F88C1 solid;
+}
+
+img {
+  width: 250px;
+  height: 300px;
+  margin-top: 100px;
+  position: relative;
+  bottom: 10px;
+  border: 5px #4F88C1 solid;
+}
+
+img:hover {
+    opacity: 80%;
+}
+
+.cadeau {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.important {
+  color: #D55A87;
+  font-size: 55px;
+}
